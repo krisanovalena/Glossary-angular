@@ -63,7 +63,9 @@ $container-color: #FFFF;
         padding-bottom: 32px;
     }
     .select-letter-container {
-        border: 1px solid $accent-color !important;
+        border: 3px solid $accent-color !important;
+        height: 31px !important;
+        width: 31px !important;
     }
     .flex {
         display: flex;
