@@ -1,0 +1,30 @@
+<div class="layout">
+  <div class="menu">
+    <div class="title">
+      <div>Русский</div>
+      <div>English</div>
+    </div>
+    <div class="select"></div>
+  </div>
+  <div class="letters">
+    <div *ngFor="let letter of letters1;">
+      <div class="letter-container" [class.select-letter-container]="letter.isSelect">
+        <div class="letter">{{letter.title}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="letters">
+    <div class="letter-container" *ngFor="let letter of letters2;">
+      <div class="letter">{{letter.title}}</div>
+    </div>
+  </div>
+  <div class="select-letter">A</div>
+  <div class="content-container">
+    <div class="content-box">Абсолютная ссылка — это ссылка, в которой содержится полный URL адрес страницы, на которую
+      он ссылается</div>
+    <div class="content-box m-t-24">Аккаунт — личный вход пользователя в различные системы интернета, состоящий, как
+      правило, из имени пользователя и пароля.</div>
+    <div class="content-box m-t-24">Анкор ссылки — это попросту текст ссылки, или анкор ссылки, как его ещё называют.
+      Произошло это слово от английского слова anchor, которое означает «ссылка». </div>
+  </div>
+</div>
