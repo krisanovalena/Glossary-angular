@@ -9,7 +9,7 @@
   <div class="letters">
     <div *ngFor="let letter of letters1;">
       <div class="letter-container" [class.select-letter-container]="letter.isSelect">
-        <div class="letter">{{letter.title}}</div>
+        <div class="letter" [class.select-letter]="letter.isSelect">{{letter.title}}</div>
       </div>
     </div>
   </div>

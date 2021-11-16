@@ -64,8 +64,12 @@ $container-color: #FFFF;
     }
     .select-letter-container {
         border: 3px solid $accent-color !important;
-        height: 31px !important;
-        width: 31px !important;
+        height: 33px !important;
+        width: 33px !important;
+    }
+    .select-letter {
+            padding-left: 10px !important;
+            padding-top: 7px !important;
     }
     .flex {
         display: flex;
