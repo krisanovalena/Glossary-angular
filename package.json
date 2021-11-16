@@ -8,7 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "heroku-postbuild": "ng build --aot --prod "
+    "heroku-postbuild": "ng build --aot --prod",
+    "resolve": "npm install enhanced-resolve@3.3.0",
+    "express": "npm install express path --save",
+    "sass": "npm install node-sass@4.14.1"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +24,10 @@
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
-    "node-sass": "^6.0.1",
+    "enhanced-resolve": "^3.3.0",
+    "express": "^4.17.1",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
