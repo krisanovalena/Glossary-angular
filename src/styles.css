@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     background-color: #FAFAFA;
+    overflow-x: hidden;
+}
+.flex {
+    display: flex;
+}
+.m-t-24 {
+    margin-top: 24px;
 }

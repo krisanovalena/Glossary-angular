@@ -12,6 +12,7 @@ $container-color: #FFFF;
     background-color: $bg-color;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
     .menu {
         font-size: 18px;
         cursor: pointer;
@@ -71,12 +72,7 @@ $container-color: #FFFF;
             padding-left: 10px !important;
             padding-top: 7px !important;
     }
-    .flex {
-        display: flex;
-    }
-    .m-t-24 {
-        margin-top: 24px;
-    }
+   
     .select {
         width: 70px;
         height: 3px;

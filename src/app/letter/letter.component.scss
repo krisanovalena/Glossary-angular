@@ -1,0 +1,14 @@
+$primary-color: #000000;
+$accent-color: #4B88A1;
+$bg-color: #FAFAFA;
+$border-color: #7E8385;
+$container-color: #FFFF;
+
+.content-box {
+    width: 100%;
+    min-height: 41px;
+    background-color: $container-color;
+    border: 1px solid $border-color;
+    padding: 20px;
+    font-weight: 600;
+}

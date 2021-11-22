@@ -11,6 +11,7 @@ export interface ILetter {
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  
   letters1: ILetter[] = [
     {title: 'А', isSelect: true},
     {title: 'Б', isSelect: false},
@@ -42,5 +43,9 @@ export class AppComponent {
     {title: 'Э', isSelect: false},
     {title: 'Ю', isSelect: false},
     {title: 'Я', isSelect: false},
-  ]
+  ];
+  currentLetter: ILetter = this.letters1[0];
+  changeLetter(letter: ILetter) {
+    this.currentLetter = letter;
+  }
 }
